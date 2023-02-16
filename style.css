@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: rgb(230, 237, 243);
+}
+
+/* Padrao */
+
+h3{
+    padding: .4rem 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #2d2a37;
+}
+
+ul li{
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 4px 1px rgb(36, 33, 33);
+    filter: drop-shadow(0 0 0.3rem #2d2a37);
+}
+
+
+header{
+    width: 1200px;
+    height: 250px;
+    display: grid;
+    grid-template-rows: 1fr 30%;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    background-color: #2d2a37;
+}
+
+.name{
+    width: 800px;
+    margin-left: 330px;
+    margin-top: 2rem;
+    font-size: 65pt;
+    /* border: .1rem solid black; */
+}
+
+.job_tittle{
+    width: 500px;
+    margin-left: 480px;
+    margin-bottom: 3rem;
+    font-size: 30pt;
+    /* border: .1rem solid black; */
+}
+
+.pic-bio{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    /* border: .1rem solid black; */
+}
+
+
+.pic{
+    padding-left: 3rem;
+    margin-top: -11rem;
+}
+
+.pic img{
+    width: 300px;
+    border-radius: 50%;
+    border: .4rem solid #fff;
+}
+
+.bio p{
+    padding: 1rem;
+    /* font-size: 10pt; */
+   text-align: justify;
+   /* letter-spacing: .1em; */
+   line-height: 1.5em;
+}
+
+main{
+    width: 1200px;
+    /* height: 50vh; */
+    display: grid;
+    grid-template-columns: max-content 1% 1fr;
+    /* gap: 1rem; */
+    margin: -.2rem auto 0 auto;
+    /* border: .1rem solid black; */
+}
+
+.left{
+    /* height: 50vh; */
+    padding: 0 1rem;
+    /* border: .1rem solid black; */
+}
+
+
+.infomations, .copetencias{
+    margin-bottom: 1rem;
+    text-indent: .6rem;
+}
+
+.languages .percent{
+    position: relative;
+    width: 100%;
+    height: 15px;
+    border: .1rem solid #2d2a37;
+    display: block;
+    margin-top: 5px;
+}
+
+.languages .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #5d586b;
+}
+
+.skills .percent{
+    position: relative;
+    width: 100%;
+    height: 15px;
+    border: .1rem solid #2d2a37;
+    display: block;
+    margin-top: 5px;
+}
+
+.skills .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #5d586b; 
+}
+
+
+/* Middle */
+
+.middle{
+    width: 2px;
+    border: none;
+    background-color: #2d2a37;
+}
+
+.right{
+    padding: 0 .5rem;
+    display: grid;
+    grid-template-rows: 25% 70% 1fr;
+    /* border: .1rem solid black; */
+}
+
+.right-right{
+    padding: .4rem 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #2d2a37;
+}
+
+.school-info, .job-info{
+   padding: 0 1rem;
+}
+
+.school-info{
+    display: grid;
+    grid-template-columns: 16% 1fr;
+    align-items: center;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.box{
+    display: flex;
+    gap: 2rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    text-align: justify;
+    margin-bottom: .9rem;
+}
+
+.box .year_company{
+    min-width: 180px;
+}
+
+.current{
+    padding: .3rem .6rem;
+    color: #fff;
+    background-color: #2d2a37;
+}
+
+.interest{
+    margin-top: 8rem;
+}
+
+.interest ul{
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15pt;
+}
